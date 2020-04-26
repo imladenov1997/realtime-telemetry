@@ -1,0 +1,26 @@
+version: '2.4'
+services:
+  extractor:
+    image: extractor
+    build: ./
+    ports:
+      - 20777:20777/udp
+  db:
+    image: philhawthorne/docker-influxdb-grafana:latest
+    ports:
+      - 3003:3003
+      - 8086:8086
+      - 3004:8083
+    volumes:
+      - type: volume
+        source: influxdb
+        target: /var/lib/influxdb
+      - type: volume
+        source: grafana
+        target: /var/lib/grafana
+          - database
+volumes:
+  influxdb:
+    external: true
+  grafana:
+    external: true
