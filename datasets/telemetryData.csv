@@ -1,4 +1,4 @@
-m_speed,m_throttle,m_steer,m_brake,m_clutch,m_gear,m_engineRPM,m_drs,m_revLightsPercent,m_engineTemperature,m_brakesTemperature,m_tyresSurfaceTemperature,m_tyresInnerTemperature,m_tyresPressure,m_surfaceType
+m_speed,m_throttle,m_steer,m_brake,m_clutch,m_gear,m_engineRPM,m_drs,m_revLightsPercent,m_engineTemperature,m_brakesTemperature_RL,m_brakesTemperature_RR,m_brakesTemperature_FL,m_brakesTemperature_FR,m_tyresSurfaceTemperature_RL,m_tyresSurfaceTemperature_RR,m_tyresSurfaceTemperature_FL,m_tyresSurfaceTemperature_FR,m_tyresInnerTemperature_RL,m_tyresInnerTemperature_RR,m_tyresInnerTemperature_FL,m_tyresInnerTemperature_FR,m_tyresPressure_RL,m_tyresPressure_RR,m_tyresPressure_FL,m_tyresPressure_FR,m_surfaceType_RL,m_surfaceType_RR,m_surfaceType_FL,m_surfaceType_FR
 231,0,0,0,0,6,10228,0,0,85,85,85,91,90,100,100,100,100,92,92,92,92,21.5,21.5,23,23,0,1,0,1
 230,1,0.15148863196372986,0,0,6,10460,0,0,85,85,85,91,90,100,100,101,101,92,92,92,92,21.5,21.5,23,23,0,1,0,1
 231,1,-0.0021596988663077354,0,0,6,10513,0,0,85,84,85,91,90,100,99,101,101,92,92,92,92,21.5,21.5,23,23,0,1,0,1

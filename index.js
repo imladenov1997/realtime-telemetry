@@ -100,7 +100,6 @@ function getCarSetup(packet) {
     carSetupData.push(dataPoint);
 
     if (carSetupDataHeader == null) {
-        keys.push('m_brakesTemperature', 'm_tyresSurfaceTemperature', 'm_tyresInnerTemperature', 'm_tyresPressure', 'm_surfaceType');
         carSetupDataHeader = keys.join(',');
     }
 
