@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "f1-telemetry-client": "^0.1.16"
   },
   "proxy": "http://db:8086"
